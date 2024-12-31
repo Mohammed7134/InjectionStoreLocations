@@ -28,13 +28,13 @@ const data = [
     {
         "ITEM_SER": 2231,
         "ITEM_ID": "6505-99-02-01286",
-        "DRUG_NAME": "ARGInine HCL  21% 20ml",
+        "DRUG_NAME": "ARGInine HCl 21% (4.2g/20ml) Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 24 Shelf B"
     },
     {
         "ITEM_SER": 6045,
         "ITEM_ID": "6505-99-02-01284",
-        "DRUG_NAME": "ARGInine HCL 10-50%",
+        "DRUG_NAME": "ARGInine HCl 50% (5g/10ml) Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 24 Shelf C"
     },
     {
@@ -82,7 +82,7 @@ const data = [
     {
         "ITEM_SER": 78,
         "ITEM_ID": "6505-99-02-08841",
-        "DRUG_NAME": "AcetylSYSTEINE 2g/10ml (Parvolex)  IV Infusion",
+        "DRUG_NAME": "AcetylCYSTEINE 2g/10ml (Parvolex) IV Infusion",
         "ITEM_PHYSICAL_LOCATION": "Column 24 Shelf B"
     },
     {
@@ -358,13 +358,13 @@ const data = [
     {
         "ITEM_SER": 52,
         "ITEM_ID": "6505-99-02-07781",
-        "DRUG_NAME": "BUPIvacain HCL 0.5% Injection",
+        "DRUG_NAME": "BUPIvacain HCl 0.5% Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 34 Shelf C"
     },
     {
         "ITEM_SER": 53,
         "ITEM_ID": "6505-99-02-07703",
-        "DRUG_NAME": "BUPIvacain HCL Heavy Injection",
+        "DRUG_NAME": "BUPIvacain HCl Heavy 20mg/4ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 34 Shelf B"
     },
     {
@@ -412,7 +412,7 @@ const data = [
     {
         "ITEM_SER": 2233,
         "ITEM_ID": "6505-99-03-01721",
-        "DRUG_NAME": "Bleomycin HCL 15mg",
+        "DRUG_NAME": "Bleomycin HCl 15mg Injection",
         "ITEM_PHYSICAL_LOCATION": "Fridge 5 Shelf 2"
     },
     {
@@ -688,19 +688,19 @@ const data = [
     {
         "ITEM_SER": 399,
         "ITEM_ID": "6505-99-02-04277",
-        "DRUG_NAME": "DOBUtamine HCL 250mg/20ml Ampoule",
+        "DRUG_NAME": "DOBUtamine HCl 250mg/20ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf C"
     },
     {
         "ITEM_SER": 18003,
         "ITEM_ID": "6505-99-02-04273",
-        "DRUG_NAME": "DOBUtamine HCL 250mg/5ml Ampoule",
+        "DRUG_NAME": "DOBUtamine HCl 250mg/5ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf C"
     },
     {
         "ITEM_SER": 400,
         "ITEM_ID": "6505-99-02-04333",
-        "DRUG_NAME": "DOPAmine HCL 200mg/5ml Injection",
+        "DRUG_NAME": "DOPAmine HCl 200mg/5ml Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf C"
     },
     {
@@ -712,7 +712,7 @@ const data = [
     {
         "ITEM_SER": 5024,
         "ITEM_ID": "6505-99-02-13072",
-        "DRUG_NAME": "Danaproid (Orgaran) injection",
+        "DRUG_NAME": "Danaproid 750U/0.6ml (Orgaran) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf B"
     },
     {
@@ -964,7 +964,7 @@ const data = [
     {
         "ITEM_SER": 2024,
         "ITEM_ID": "6505-99-02-04791",
-        "DRUG_NAME": "Epoprostenol Sodium 500ug (Flolan) Injection",
+        "DRUG_NAME": "Epoprostenol Sodium 500mcg (Flolan) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 17 Shelf B"
     },
     {
@@ -1582,7 +1582,7 @@ const data = [
     {
         "ITEM_SER": 31,
         "ITEM_ID": "6505-99-02-16553",
-        "DRUG_NAME": "Isoprenaline  (Isuprel)  Injection",
+        "DRUG_NAME": "Isoprenaline 0.2mg/ml (Isuprel) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 13 Shelf C"
     },
     {
@@ -1594,13 +1594,13 @@ const data = [
     {
         "ITEM_SER": 37,
         "ITEM_ID": "6505-99-02-0682",
-        "DRUG_NAME": "Ketamine HCL 250MG/5ML Injection",
+        "DRUG_NAME": "Ketamine HCl 250MG/5ML Injection",
         "ITEM_PHYSICAL_LOCATION": ""
     },
     {
         "ITEM_SER": 36,
         "ITEM_ID": "6505-99-02-06825",
-        "DRUG_NAME": "Ketamine HCL 500MG/10ML Injection",
+        "DRUG_NAME": "Ketamine HCl 500MG/10ML Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 32 Shelf C"
     },
     {
@@ -1624,7 +1624,7 @@ const data = [
     {
         "ITEM_SER": 137,
         "ITEM_ID": "6505-99-02-12764",
-        "DRUG_NAME": "Labetalol HCL 100mg/20ml (Trandate) Injection",
+        "DRUG_NAME": "Labetalol HCl 100mg/20ml (Trandate) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 12 Shelf A"
     },
     {
@@ -1828,7 +1828,7 @@ const data = [
     {
         "ITEM_SER": 63,
         "ITEM_ID": "6505-99-02-08092",
-        "DRUG_NAME": "Methylene Blue Injection",
+        "DRUG_NAME": "Methylene Blue 10mg/ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 30 Shelf A"
     },
     {
@@ -1870,7 +1870,7 @@ const data = [
     {
         "ITEM_SER": 5236,
         "ITEM_ID": "6505-99-02-08152",
-        "DRUG_NAME": "MilRinone 10mg (Primacor) Injection",
+        "DRUG_NAME": "MilRinone 10mg/10ml (Primacor) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 11 Shelf C"
     },
     {
@@ -1942,7 +1942,7 @@ const data = [
     {
         "ITEM_SER": 99,
         "ITEM_ID": "6505-99-02-10031",
-        "DRUG_NAME": "Neostigmine Injection",
+        "DRUG_NAME": "Neostigmine 2.5mg/ml Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 42 Shelf B"
     },
     {
@@ -2104,7 +2104,7 @@ const data = [
     {
         "ITEM_SER": 6571,
         "ITEM_ID": "6505-99-02-21163",
-        "DRUG_NAME": "Papaverine HCL 60mg/2ml Ampoule",
+        "DRUG_NAME": "Papaverine HCl 60mg/2ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 22 Shelf A"
     },
     {
@@ -2206,7 +2206,7 @@ const data = [
     {
         "ITEM_SER": 18,
         "ITEM_ID": "6505-99-02-05921",
-        "DRUG_NAME": "PropraNOLOL HCL (Inderal) Injection",
+        "DRUG_NAME": "PropraNOLOL HCl 1mg/ml (Inderal) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 22 Shelf C"
     },
     {
@@ -2458,7 +2458,7 @@ const data = [
     {
         "ITEM_SER": 345,
         "ITEM_ID": "6505-99-02-00191",
-        "DRUG_NAME": "TENECTEplase (Metalyse) Injection",
+        "DRUG_NAME": "TENECTEplase 10,000U (Metalyse) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 23 Shelf A"
     },
     {
@@ -2584,7 +2584,7 @@ const data = [
     {
         "ITEM_SER": 35,
         "ITEM_ID": "6505-99-02-06732",
-        "DRUG_NAME": "Triamcinolone Acetonide 40mg (Kenacort-A) Injection",
+        "DRUG_NAME": "Triamcinolone Acetonide 40mg/ml (Kenacort-A) Injection",
         "ITEM_PHYSICAL_LOCATION": "Column 23 Shelf C"
     },
     {
@@ -2746,7 +2746,7 @@ const data = [
     {
         "ITEM_SER": 2265,
         "ITEM_ID": "6505-99-02-13875",
-        "DRUG_NAME": "Vitamin Pyridoxine  HCL 100mg/2ml (vit.B6) Ampoule",
+        "DRUG_NAME": "Vitamin Pyridoxine HCl 100mg/2ml (vit.B6) Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 36 Shelf A"
     },
     {
