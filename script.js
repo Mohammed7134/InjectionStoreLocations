@@ -1930,7 +1930,7 @@ const data = [
     {
         "ITEM_SER": 72,
         "ITEM_ID": "6505-99-02-08521",
-        "DRUG_NAME": "Nalbuphine HCl 20mg/2ml (Nubain) Ampoule",
+        "DRUG_NAME": "Nalbuphine HCl 20mg/2ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 53 Shelf B"
     },
     {
