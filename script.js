@@ -2380,7 +2380,7 @@ const data = [
     {
         "ITEM_SER": 118,
         "ITEM_ID": "6505-99-02-11592",
-        "DRUG_NAME": "Sodium PHosphate (Na 1.33 mmol-PO4 0.66mmol)/ml, 10ml Ampoule",
+        "DRUG_NAME": "Sodium PHosphate (Na 1.33mmol - PO4 0.66mmol)/ml, 10ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Cupboard 5 Shelf A"
     },
     {
@@ -2928,7 +2928,7 @@ const data = [
         "ITEM_ID": "6505-99-02-13382",
         "DRUG_NAME": "Sodium Glycerophosphate (Na 2mmol - PO4 1mmol)/ml, 20ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Cupboard 5 Shelf A"
-        }
+    }
 ];
 // Function to render rows
 function renderRows(filteredData) {
