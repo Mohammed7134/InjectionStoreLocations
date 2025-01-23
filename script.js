@@ -2928,6 +2928,7 @@ const data = [
         "ITEM_ID": "6505-99-02-13382",
         "DRUG_NAME": "Sodium Glycerophosphate (Na 2mmol - PO4 1mmol)/ml, 20ml Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Cupboard 5 Shelf A"
+        }
 ];
 // Function to render rows
 function renderRows(filteredData) {
