@@ -2922,7 +2922,12 @@ const data = [
         "ITEM_ID": "6505-9902-13740B",
         "DRUG_NAME": "vitamin (B1 250mg,B6 250mg,B12 1.5mg)Injection",
         "ITEM_PHYSICAL_LOCATION": ""
-    }
+    },
+    {
+        "ITEM_SER": 9999,
+        "ITEM_ID": "6505-99-02-13382",
+        "DRUG_NAME": "Sodium Glycerophosphate (Na 2mmol - PO4 1mmol)/ml, 20ml Ampoule",
+        "ITEM_PHYSICAL_LOCATION": "Cupboard 5 Shelf A"
 ];
 // Function to render rows
 function renderRows(filteredData) {
