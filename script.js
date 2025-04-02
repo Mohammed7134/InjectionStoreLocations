@@ -1619,7 +1619,7 @@ const data = [
         "ITEM_SER": 5246,
         "ITEM_ID": "6505-99-02-55552",
         "DRUG_NAME": "LEVObubivacain 5mg/ml (Chirocaine) Injection",
-        "ITEM_PHYSICAL_LOCATION": ""
+        "ITEM_PHYSICAL_LOCATION": "Column 34 Shelf B"
     },
     {
         "ITEM_SER": 137,
