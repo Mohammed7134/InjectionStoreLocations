@@ -2093,7 +2093,7 @@ const data = [
         "ITEM_SER": 6530,
         "ITEM_ID": "6505-99-02-14581",
         "DRUG_NAME": "Paliperidone 350mg (Trevicta) Prefilled Syring",
-        "ITEM_PHYSICAL_LOCATION": ""
+        "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf E"
     },
     {
         "ITEM_SER": 6531,
