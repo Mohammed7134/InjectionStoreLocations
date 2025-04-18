@@ -1913,7 +1913,7 @@ const data = [
         "ITEM_SER": 6551,
         "ITEM_ID": "6505-99-02-08508",
         "DRUG_NAME": "NORadrenalin acid tartrate 8mg/4ml (base 4mg/4ml) Amp",
-        "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 4"
+        "ITEM_PHYSICAL_LOCATION": "Column 21 Shelf A"
     },
     {
         "ITEM_SER": 71,
