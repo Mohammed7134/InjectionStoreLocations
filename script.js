@@ -724,8 +724,8 @@ const data = [
     {
         "ITEM_SER": 6376,
         "ITEM_ID": "6505-99-02-01851",
-        "DRUG_NAME": "Daptomycin Noridem 500mg injection",
-        "ITEM_PHYSICAL_LOCATION": "Column 7 Shelf A"
+        "DRUG_NAME": "Daptomycin 500mg injection",
+        "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 1"
     },
     {
         "ITEM_SER": 5734,
@@ -2020,7 +2020,7 @@ const data = [
     {
         "ITEM_SER": 6568,
         "ITEM_ID": "6505-99-02-50501",
-        "DRUG_NAME": "Omnitrope (Surepal) 5 Pen Device",
+        "DRUG_NAME": "Omnitrope (Surepal 5) Pen Device",
         "ITEM_PHYSICAL_LOCATION": "Cold Room 7 Shelf C"
     },
     {
