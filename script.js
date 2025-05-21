@@ -1715,7 +1715,7 @@ const data = [
         "ITEM_SER": 44,
         "ITEM_ID": "6505-99-02-07212",
         "DRUG_NAME": "Lipid 20% 500ml  Infusion",
-        "ITEM_PHYSICAL_LOCATION": "Column 59 Shelf B"
+        "ITEM_PHYSICAL_LOCATION": "Column 57 Shelf B"
     },
     {
         "ITEM_SER": 17551,
