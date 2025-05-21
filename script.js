@@ -1661,7 +1661,7 @@ const data = [
         "ITEM_SER": 2247,
         "ITEM_ID": "6505-99-02-09242",
         "DRUG_NAME": "LevETIRAcetam 500mg/5ml (Keppra) Injection",
-        "ITEM_PHYSICAL_LOCATION": "Column 40 Shelf 4"
+        "ITEM_PHYSICAL_LOCATION": "Column 40 Shelf A"
     },
     {
         "ITEM_SER": 2277,
