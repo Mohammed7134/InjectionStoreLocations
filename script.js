@@ -2151,8 +2151,14 @@ const data = [
     },
     {
         "ITEM_SER": 2252,
-        "ITEM_ID": "6505-99-02-09264",
+        "ITEM_ID": "6505-99-02-09262",
         "DRUG_NAME": "Phenylephrine 500mcg/10ml IV Ampoule",
+        "ITEM_PHYSICAL_LOCATION": "Column 22 Shelf A"
+    },
+    {
+        "ITEM_SER": 18099,
+        "ITEM_ID": "6505-99-02-09264",
+        "DRUG_NAME": "Phenylephrine 10mg/ml IV Ampoule",
         "ITEM_PHYSICAL_LOCATION": "Column 22 Shelf A"
     },
     {
