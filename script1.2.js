@@ -4106,7 +4106,6 @@ function printSelected() {
     </style>
   </head>
   <body>
-    <h2 class='date'>${new Date().toLocaleDateString("en-GB")}</h2>
     <div class='content'>
       <h1 style='text-align:center'>Farwaniya Hospital</h1>
       <h2 style='text-align:center'>13-13-60-11-00</h2>
