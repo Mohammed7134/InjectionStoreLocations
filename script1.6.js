@@ -4088,7 +4088,7 @@ function printSelected() {
       tr { height: 50px; }
       .rowNumber { width: 5%; }
       .codeNumber { width: 20%; }
-      .itemDescription { width: 35%; font-size: 0.9rem; }
+      .itemDescription { width: 35%; font-size: 0.7rem; }
       .packSize, .quantity, .total { width: 10%; }
        @media print {
         @page {
@@ -4130,7 +4130,7 @@ function printSelected() {
           ${selectedRows.map(r => `
           <tr>
             <td class='rowNumber' style="margin:0px;">${r.id}</td>
-            <td class='codeNumber' style="margin:0px;">${r.codeNumber}</td>
+            <td class='codeNumber' style="margin:0px;font-size:0.9rem;">${r.codeNumber}</td>
             <td class='itemDescription' style="margin:0px;">${r.itemDescription}</td>
             <td class='packSize' style="margin:0px;">${r.packSize}</td>
             <td class='quantity' style="margin:0px;">${r.quantity}</td>
