@@ -4056,7 +4056,7 @@ function printSelected() {
         padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 930px;
+        height: 830px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
