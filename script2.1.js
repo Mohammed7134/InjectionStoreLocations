@@ -4056,7 +4056,7 @@ function printSelected() {
         padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 730px;
+        height: 710px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
@@ -4085,7 +4085,7 @@ function printSelected() {
         padding: 6px;
         text-align: left;
       }
-      tr { height: 45px; }
+      tr { height: 40px; }
       .rowNumber { width: 5%; }
       .codeNumber { width: 20%; }
       .itemDescription { width: 35%; font-size: 0.9rem; }
