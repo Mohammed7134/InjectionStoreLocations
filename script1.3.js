@@ -4053,10 +4053,10 @@ function printSelected() {
         right:1px;
       }
       .content {
-        padding: 20px;
+        padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 730px;
+        height: 930px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
@@ -4106,6 +4106,7 @@ function printSelected() {
     </style>
   </head>
   <body>
+  <h2 class='date'>${new Date().toLocaleDateString("en-GB")}</h2>
     <div class='content'>
       <h1 style='text-align:center'>Farwaniya Hospital</h1>
       <h2 style='text-align:center'>13-13-60-11-00</h2>
