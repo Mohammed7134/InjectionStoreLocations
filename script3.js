@@ -4090,10 +4090,23 @@ function printSelected() {
       .codeNumber { width: 20%; }
       .itemDescription { width: 35%; font-size: 0.9rem; }
       .packSize, .quantity, .total { width: 10%; }
+       @media print {
+        @page {
+          margin: 0;
+          /* remove all margins */
+          size: A4;
+          /* optional: force paper size */
+        }
+
+        body {
+          margin: 0;
+          /* also reset body margin */
+        }
+      }
     </style>
   </head>
   <body>
-    <h2 class='date'>${new Date().toLocaleDateString()}</h2>
+    <h2 class='date'>${new Date().toLocaleDateString("en-GB")}</h2>
     <div class='content'>
       <h1 style='text-align:center'>Farwaniya Hospital</h1>
       <h2 style='text-align:center'>13-13-60-11-00</h2>
