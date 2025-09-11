@@ -4056,7 +4056,7 @@ function printSelected() {
         padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 710px;
+        height: 700px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
@@ -4082,13 +4082,13 @@ function printSelected() {
       }
       th, td {
         border: 1px solid #dddddd;
-        padding: 6px;
+        padding: 5px;
         text-align: left;
       }
       tr { height: 40px; }
       .rowNumber { width: 5%; }
       .codeNumber { width: 20%; }
-      .itemDescription { width: 35%; font-size: 0.9rem; }
+      .itemDescription { width: 35%; font-size: 0.8rem; }
       .packSize, .quantity, .total { width: 10%; }
        @media print {
         @page {
