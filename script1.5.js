@@ -4112,9 +4112,9 @@ function printSelected() {
   <body>
   <h2 class='date'>${new Date().toLocaleDateString("en-GB")}</h2>
     <div class='content'>
-      <h1 style='text-align:center'>Farwaniya Hospital</h1>
-      <h2 style='text-align:center'>13-13-60-11-00</h2>
-      <h2 style='text-align:center'>Urgent Request</h2>
+      <h1 style='text-align:center;margin:0px;'>Farwaniya Hospital</h1>
+      <h2 style='text-align:center;margin:0px;'>13-13-60-11-00</h2>
+      <h2 style='text-align:center;margin:0px;'>Urgent Request</h2>
       <table>
         <thead>
           <tr>
@@ -4129,12 +4129,12 @@ function printSelected() {
         <tbody>
           ${selectedRows.map(r => `
           <tr>
-            <td class='rowNumber'>${r.id}</td>
-            <td class='codeNumber'>${r.codeNumber}</td>
-            <td class='itemDescription'>${r.itemDescription}</td>
-            <td class='packSize'>${r.packSize}</td>
-            <td class='quantity'>${r.quantity}</td>
-            <td class='total'>${r.total}</td>
+            <td class='rowNumber' style="margin:0px;">${r.id}</td>
+            <td class='codeNumber' style="margin:0px;">${r.codeNumber}</td>
+            <td class='itemDescription' style="margin:0px;">${r.itemDescription}</td>
+            <td class='packSize' style="margin:0px;">${r.packSize}</td>
+            <td class='quantity' style="margin:0px;">${r.quantity}</td>
+            <td class='total' style="margin:0px;">${r.total}</td>
           </tr>`).join("")}
         </tbody>
       </table>
