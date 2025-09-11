@@ -4056,7 +4056,7 @@ function printSelected() {
         padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 740px;
+        height: 730px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
@@ -4085,10 +4085,10 @@ function printSelected() {
         padding: 6px;
         text-align: left;
       }
-      tr { height: 50px; }
+      tr { height: 45px; }
       .rowNumber { width: 5%; }
       .codeNumber { width: 20%; }
-      .itemDescription { width: 35%; font-size: 0.7rem; }
+      .itemDescription { width: 35%; font-size: 0.9rem; }
       .packSize, .quantity, .total { width: 10%; }
        @media print {
         @page {
@@ -4112,9 +4112,9 @@ function printSelected() {
   <body>
   <h2 class='date'>${new Date().toLocaleDateString("en-GB")}</h2>
     <div class='content'>
-      <h1 style='text-align:center;margin:0px;'>Farwaniya Hospital</h1>
-      <h2 style='text-align:center;margin:0px;'>13-13-60-11-00</h2>
-      <h2 style='text-align:center;margin:0px;'>Urgent Request</h2>
+      <h1 style='text-align:center;margin:5px;'>Farwaniya Hospital</h1>
+      <h2 style='text-align:center;margin:5px;'>13-13-60-11-00</h2>
+      <h2 style='text-align:center;margin:5px;'>Urgent Request</h2>
       <table>
         <thead>
           <tr>
