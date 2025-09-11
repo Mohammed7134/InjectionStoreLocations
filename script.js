@@ -3964,36 +3964,191 @@ const data = [
 ];
 // Function to render rows
 function renderRows(filteredData) {
-    const results = document.getElementById('results');
-    results.innerHTML = ''; // Clear previous rows
+  const results = document.getElementById('results');
+  results.innerHTML = ''; // Clear previous rows
 
-    if (filteredData.length > 0) {
-        filteredData.forEach(item => {
-            const row = document.createElement('tr');
-            row.innerHTML = `
+  if (filteredData.length > 0) {
+    filteredData.forEach(item => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+                        <td display="none">${item.ITEM_ID}</td>
                         <td>${item.DRUG_NAME}</td>
                         <td>${item.ITEM_PHYSICAL_LOCATION}</td>
+                        <td>${item.PACK_SIZE}</td>
+                        <td><input type="number" min="0"></td>
                     `;
-            results.appendChild(row);
-        });
-    } else {
-        const noResults = document.createElement('tr');
-        noResults.innerHTML = `<td colspan="4" class="no-results">No matching results found.</td>`;
-        results.appendChild(noResults);
-    }
+      results.appendChild(row);
+    });
+  } else {
+    const noResults = document.createElement('tr');
+    noResults.innerHTML = `<td colspan="4" class="no-results">No matching results found.</td>`;
+    results.appendChild(noResults);
+  }
 }
 
 // Function to perform the search
 function search() {
-    const query = document.getElementById('searchBox').value.toLowerCase();
-    const filteredData = data.filter(item =>
-        item.ITEM_ID.toLowerCase().includes(query) ||
-        item.DRUG_NAME.toLowerCase().includes(query) ||
-        item.ITEM_PHYSICAL_LOCATION.toLowerCase().includes(query)
-    );
+  const query = document.getElementById('searchBox').value.toLowerCase();
+  let rows = document.querySelectorAll("table tbody tr");
+  // const filteredData = data.filter(item =>
+  //   item.ITEM_ID.toLowerCase().includes(query) ||
+  //   item.DRUG_NAME.toLowerCase().includes(query) ||
+  //   item.ITEM_PHYSICAL_LOCATION.toLowerCase().includes(query)
+  // );
+  rows.forEach(row => {
+    let drugName = row.cells[1].innerText.toLowerCase();
+    if (drugName.includes(query)) {
+      row.style.display = "";
+    } else {
+      row.style.display = "none";
+    }
+  });
 
-    renderRows(filteredData);
+  // renderRows(filteredData);
 }
+function printSelected() {
+  let rows = document.querySelectorAll("table tbody tr");
+  let selectedRows = [];
+  let rowNumber = 1;
 
+  rows.forEach(row => {
+    let input = row.querySelector("input").value;
+    if (input && input.trim() !== "" && input > 0) {
+      selectedRows.push({
+        id: rowNumber++,
+        codeNumber: row.cells[0].innerText,
+        itemDescription: row.cells[1].innerText,
+        packSize: row.cells[3].innerText,
+        quantity: input,
+        total: input * row.cells[3].innerText
+      });
+    }
+  });
+
+  if (selectedRows.length === 0) {
+    alert("No Quantity Entered!");
+    return;
+  }
+  if (selectedRows.length > 12) {
+    alert("Cannot print more than 12 items!, currently selected: " + selectedRows.length);
+    return;
+  }
+
+  // HTML القالب
+  let template = `
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        position: relative;
+        min-height: 100vh;
+      }
+      .date {
+        position: absolute;
+        top:1px;
+        right:1px;
+      }
+      .content {
+        padding: 20px;
+        padding-bottom: 5%;
+        box-sizing: border-box;
+        height: 930px;
+        border-bottom: 1px solid #dddddd;
+      }
+      .footer {
+        width: 100%;
+        padding: 10px;
+        display: table;
+        table-layout: fixed;
+      }
+      .footer-box {
+        display: table-cell;
+        vertical-align: top;
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      .footer-box p { margin: 5px 0; }
+      .footer-box-left { text-align: left; width: 60%; }
+      .footer-box-right { text-align: left; }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-family: Arial, sans-serif;
+        font-size: medium;
+      }
+      th, td {
+        border: 1px solid #dddddd;
+        padding: 8px;
+        text-align: left;
+      }
+      tr { height: 50px; }
+      .rowNumber { width: 5%; }
+      .codeNumber { width: 20%; }
+      .itemDescription { width: 35%; font-size: 0.9rem; }
+      .packSize, .quantity, .total { width: 10%; }
+    </style>
+  </head>
+  <body>
+    <h2 class='date'>${new Date().toLocaleDateString()}</h2>
+    <div class='content'>
+      <h1 style='text-align:center'>Farwaniya Hospital</h1>
+      <h2 style='text-align:center'>13-13-60-11-00</h2>
+      <h2 style='text-align:center'>Urgent Request</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Code Number</th>
+            <th>Item Description</th>
+            <th>Pack Size</th>
+            <th>Quantity</th>
+            <th>Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${selectedRows.map(r => `
+          <tr>
+            <td class='rowNumber'>${r.id}</td>
+            <td class='codeNumber'>${r.codeNumber}</td>
+            <td class='itemDescription'>${r.itemDescription}</td>
+            <td class='packSize'>${r.packSize}</td>
+            <td class='quantity'>${r.quantity}</td>
+            <td class='total'>${r.total}</td>
+          </tr>`).join("")}
+        </tbody>
+      </table>
+    </div>
+    <div class='footer'>
+      <div class='footer-box footer-box-left'>
+        <p>Requested by:</p>
+        <p>Name:</p>
+        <p>Sign:</p>
+        <p>Date:</p>
+      </div>
+      <div class='footer-box footer-box-right'>
+        <p>Supplied by:</p>
+        <p>Name:</p>
+        <p>Sign:</p>
+        <p>Date:</p>
+        <p>Request number:</p>
+      </div>
+    </div>
+    <div style='text-align: center; padding: 20px;'>
+      Please write the request number and return to Farwaniya Hospital
+    </div>
+  </body>
+  </html>
+  `;
+
+  // فتح نافذة الطباعة
+  let printWindow = window.open("", "", "width=800,height=600");
+  printWindow.document.write(template);
+  printWindow.document.close();
+  printWindow.print();
+}
 // Initial render
 renderRows(data);

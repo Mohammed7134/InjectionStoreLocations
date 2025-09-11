@@ -39,17 +39,62 @@
         font-style: italic;
         color: gray;
       }
+
+      .print-btn {
+        margin: 15px 0;
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #007bff, #0056b3);
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .print-btn:hover {
+        background: linear-gradient(135deg, #0056b3, #004099);
+        transform: translateY(-2px);
+        box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+      }
+
+      .print-btn:active {
+        transform: translateY(0);
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      table input[type="number"] {
+        width: 80px;
+        padding: 6px 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        outline: none;
+        transition: all 0.2s ease;
+      }
+
+      table input[type="number"]:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.4);
+      }
     </style>
   </head>
 
   <body>
     <h1>Search Injection Physical Location In Injection Store</h1>
     <input type="text" id="searchBox" placeholder="Type to search..." oninput="search()">
+    <button class="print-btn" onclick="printSelected()">Print</button>
+
     <table>
       <thead>
         <tr>
+          <th>DRUG_CODE</th>
           <th>DRUG_NAME</th>
           <th>ITEM_PHYSICAL_LOCATION</th>
+          <th>PACK_SIZE</th>
+          <th>QTY</th>
         </tr>
       </thead>
       <tbody id="results"></tbody>
