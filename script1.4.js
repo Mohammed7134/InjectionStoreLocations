@@ -4100,7 +4100,11 @@ function printSelected() {
 
         body {
           margin: 0;
-          /* also reset body margin */
+          body {
+            zoom: 85%; /* works in Chrome/Edge */
+            transform: scale(0.85); /* fallback for Safari/Firefox */
+            transform-origin: top left;
+          }
         }
       }
     </style>
