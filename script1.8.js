@@ -4056,7 +4056,7 @@ function printSelected() {
         padding: 5px;
         padding-bottom: 5%;
         box-sizing: border-box;
-        height: 830px;
+        height: 760px;
         border-bottom: 1px solid #dddddd;
       }
       .footer {
@@ -4082,7 +4082,7 @@ function printSelected() {
       }
       th, td {
         border: 1px solid #dddddd;
-        padding: 8px;
+        padding: 6px;
         text-align: left;
       }
       tr { height: 50px; }
