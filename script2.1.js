@@ -3960,6 +3960,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18117",
+    "ITEM_ID": "6505-99-02-02121",
+    "DRUG_NAME": "Alirocumab 300mg/2ml (Praluent) Injection",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 ];
 // Function to render rows
