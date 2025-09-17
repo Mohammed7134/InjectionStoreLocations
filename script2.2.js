@@ -3107,10 +3107,10 @@ const data = [
   },
   {
     "ITEM_SER": "5239",
-    "ITEM_ID": "6505-99-02-11623",
+    "ITEM_ID": "6505-99-02-11622",
     "DRUG_NAME": "SODIUM ThIOsulfate 25g/100ml Injection",
     "ITEM_PHYSICAL_LOCATION": "Column 39 Shelf C",
-    "PACK_SIZE": "10",
+    "PACK_SIZE": "1",
     "QTY": ""
   },
   {
