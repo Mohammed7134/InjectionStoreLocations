@@ -3968,7 +3968,16 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18150",
+    "ITEM_ID": "6505-99-02-44551",
+    "DRUG_NAME": "Rezafungin 200mg (Rezzayo) Vial",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
+
 ];
 // Function to render rows
 function renderRows(filteredData) {
