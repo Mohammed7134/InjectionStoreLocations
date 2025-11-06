@@ -3933,7 +3933,7 @@ const data = [
     "ITEM_SER": "18071",
     "ITEM_ID": "6505-99-02-31081",
     "DRUG_NAME": "Factor IX 500IU (Benefix) Vial",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf ",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3965,7 +3965,15 @@ const data = [
     "ITEM_SER": "18117",
     "ITEM_ID": "6505-99-02-02121",
     "DRUG_NAME": "Alirocumab 300mg/2ml (Praluent) Injection",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Cold Room 8 Shelf B",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18118",
+    "ITEM_ID": "6505-99-02-12342",
+    "DRUG_NAME": "Hyaluronate 120mg/50ml (HyaCYST) Prefilled Syring",
+    "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf B",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3973,8 +3981,24 @@ const data = [
     "ITEM_SER": "18150",
     "ITEM_ID": "6505-99-02-44551",
     "DRUG_NAME": "Rezafungin 200mg (Rezzayo) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Column 9 Shelf B",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18152",
+    "ITEM_ID": "6505-99-02-91111",
+    "DRUG_NAME": "Bimekizumab 160mg (Bimzelx) Prefilled Syring",
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18164",
+    "ITEM_ID": "6505-99-02-13131",
+    "DRUG_NAME": "Andexanet Alfa 200mg (Andexxa) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 3 Shelf 2",
+    "PACK_SIZE": "4",
     "QTY": ""
   }
 
