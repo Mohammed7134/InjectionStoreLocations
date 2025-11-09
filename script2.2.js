@@ -3933,7 +3933,7 @@ const data = [
     "ITEM_SER": "18071",
     "ITEM_ID": "6505-99-02-31081",
     "DRUG_NAME": "Factor IX 500IU (Benefix) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf ",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 2",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3957,7 +3957,7 @@ const data = [
     "ITEM_SER": "18104",
     "ITEM_ID": "6505-99-03-03161",
     "DRUG_NAME": "Calcium Folinate 1000mg Injection",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 4",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3997,7 +3997,7 @@ const data = [
     "ITEM_SER": "18164",
     "ITEM_ID": "6505-99-02-13131",
     "DRUG_NAME": "Andexanet Alfa 200mg (Andexxa) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 3 Shelf 2",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 2",
     "PACK_SIZE": "4",
     "QTY": ""
   }
