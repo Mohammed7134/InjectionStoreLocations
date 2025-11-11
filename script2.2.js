@@ -4000,6 +4000,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 2",
     "PACK_SIZE": "4",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18171",
+    "ITEM_ID": "6505-99-02-07362",
+    "DRUG_NAME": "Gadobutrol 15mmol/15ml (Gadovist) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Column 25 Shelf C",
+    "PACK_SIZE": "10",
+    "QTY": ""
   }
 
 ];
