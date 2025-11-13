@@ -677,7 +677,7 @@ const data = [
     "ITEM_SER": "2250",
     "ITEM_ID": "6505-99-02-07922",
     "DRUG_NAME": "CarbeTOCIN 100mcg/ml (Pabal) Injection",
-    "ITEM_PHYSICAL_LOCATION": "Column 47 Shelf B",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 5 Shelf 3",
     "PACK_SIZE": "5",
     "QTY": ""
   },
