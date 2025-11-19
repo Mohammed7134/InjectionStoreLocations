@@ -421,7 +421,7 @@ const data = [
     "ITEM_SER": "6062",
     "ITEM_ID": "6505-99-02-56541",
     "DRUG_NAME": "Artesunate 60mg IM/IV Injection",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Column 4 Shelf A",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -4007,6 +4007,14 @@ const data = [
     "DRUG_NAME": "Gadobutrol 15mmol/15ml (Gadovist) Vial",
     "ITEM_PHYSICAL_LOCATION": "Column 25 Shelf C",
     "PACK_SIZE": "10",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18173",
+    "ITEM_ID": "6505-99-02-56542",
+    "DRUG_NAME": "Artesunate 120 IM/IV Injection",
+    "ITEM_PHYSICAL_LOCATION": "Column 4 Shelf A",
+    "PACK_SIZE": "1",
     "QTY": ""
   }
 
