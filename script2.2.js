@@ -4012,8 +4012,16 @@ const data = [
   {
     "ITEM_SER": "18173",
     "ITEM_ID": "6505-99-02-56542",
-    "DRUG_NAME": "Artesunate 120 IM/IV Injection",
+    "DRUG_NAME": "Artesunate 120mg (Artecan) IM/IV Injection",
     "ITEM_PHYSICAL_LOCATION": "Column 4 Shelf A",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18186",
+    "ITEM_ID": "6505-99-03-14141",
+    "DRUG_NAME": "Denosumab 120mg (Xgeva) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Cold Room",
     "PACK_SIZE": "1",
     "QTY": ""
   }
