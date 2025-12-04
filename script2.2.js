@@ -1277,7 +1277,7 @@ const data = [
     "ITEM_SER": "2044",
     "ITEM_ID": "6505-99-03-04621",
     "DRUG_NAME": "Epirubicin 50mg (Ebewe) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 5 Shelf 3",
+    "ITEM_PHYSICAL_LOCATION": "Column 52 Shelf B",
     "PACK_SIZE": "1",
     "QTY": ""
   },
