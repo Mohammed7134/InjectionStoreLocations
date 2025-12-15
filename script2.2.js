@@ -4024,6 +4024,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Cold Room",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18188",
+    "ITEM_ID": "6505-99-02-14983",
+    "DRUG_NAME": "Hyaluronate 90mg/3ml (Artro Patch) Prefilled Syringe",
+    "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf C",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 
 ];
