@@ -1724,7 +1724,7 @@ const data = [
   {
     "ITEM_SER": "467",
     "ITEM_ID": "6505-99-06-05601",
-    "DRUG_NAME": "Hepatitis B Immunoglobulin 180IU/ml Injection",
+    "DRUG_NAME": "Hepatitis B Immunoglobulin 200IU/ml Injection",
     "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
     "PACK_SIZE": "1",
     "QTY": ""
