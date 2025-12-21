@@ -3884,7 +3884,7 @@ const data = [
   {
     "ITEM_SER": "2246",
     "ITEM_ID": "6505-99-02-03984",
-    "DRUG_NAME": "tromeTAMOL 30mg/ml (Ketrolac) Ampoule",
+    "DRUG_NAME": "Ketorolac tromeTAMOL 30mg/ml Ampoule",
     "ITEM_PHYSICAL_LOCATION": "Column 46 Shelf B",
     "PACK_SIZE": "100",
     "QTY": ""
