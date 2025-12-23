@@ -3117,7 +3117,7 @@ const data = [
     "ITEM_SER": "5470",
     "ITEM_ID": "6505-99-02-98651",
     "DRUG_NAME": "SUMAtriptan succ. 6mg (Imigran-sc.) P.F.S",
-    "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf D",
+    "ITEM_PHYSICAL_LOCATION": "column 46 Shelf A",
     "PACK_SIZE": "2",
     "QTY": ""
   },
