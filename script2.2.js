@@ -1045,7 +1045,7 @@ const data = [
     "ITEM_SER": "17844",
     "ITEM_ID": "6505-99-35-05901",
     "DRUG_NAME": "Difelikefalin acetate 50mcg/ml (Kapruvia) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf B",
+    "ITEM_PHYSICAL_LOCATION": "Column 47 Shelf B",
     "PACK_SIZE": "12",
     "QTY": ""
   },
