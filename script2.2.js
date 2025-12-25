@@ -1421,7 +1421,7 @@ const data = [
     "ITEM_SER": "6521",
     "ITEM_ID": "6505-99-02-00361",
     "DRUG_NAME": "Factor Prothrombin (Octaplex) 500IU Injection",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
+    "ITEM_PHYSICAL_LOCATION": "Column 16 Shelf A",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -4026,14 +4026,21 @@ const data = [
     "QTY": ""
   },
   {
-    "ITEM_SER": "18188",
+    "ITEM_SER": "18189",
     "ITEM_ID": "6505-99-02-14983",
     "DRUG_NAME": "Hyaluronate 90mg/3ml (Artro Patch) Prefilled Syringe",
     "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf C",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+{
+    "ITEM_SER": "18188",
+    "ITEM_ID": "6505-99-02-13716",
+    "DRUG_NAME": "Vitamin A 100,000 IU Ampoule",
+    "ITEM_PHYSICAL_LOCATION": "Column 38 Shelf A",
+    "PACK_SIZE": "6",
+    "QTY": ""
   }
-
 ];
 // Function to render rows
 function renderRows(filteredData) {
