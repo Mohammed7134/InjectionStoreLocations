@@ -452,7 +452,7 @@ const data = [
   {
     "ITEM_SER": "6353",
     "ITEM_ID": "6505-99-02-00411",
-    "DRUG_NAME": "Aztreonam 2gm (Azactam) Injection",
+    "DRUG_NAME": "Aztreonam 2g (Azactam) Injection",
     "ITEM_PHYSICAL_LOCATION": "Column 5 Shelf C",
     "PACK_SIZE": "10",
     "QTY": ""
@@ -4028,17 +4028,17 @@ const data = [
   {
     "ITEM_SER": "18189",
     "ITEM_ID": "6505-99-02-14983",
-    "DRUG_NAME": "Hyaluronate 90mg/3ml (Artro Patch) Prefilled Syringe",
+    "DRUG_NAME": "Hyaluronate 90mg/3ml (Artro Patch) Prefilled Syring",
     "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf C",
     "PACK_SIZE": "1",
     "QTY": ""
   },
 {
-    "ITEM_SER": "18188",
-    "ITEM_ID": "6505-99-02-13716",
-    "DRUG_NAME": "Vitamin A 100,000 IU Ampoule",
-    "ITEM_PHYSICAL_LOCATION": "Column 38 Shelf A",
-    "PACK_SIZE": "6",
+    "ITEM_SER": "18195",
+    "ITEM_ID": "6505-99-02-32321",
+    "DRUG_NAME": "Aztreonam 1g Injection",
+    "ITEM_PHYSICAL_LOCATION": "Column 5 Shelf C",
+    "PACK_SIZE": "10",
     "QTY": ""
   }
 ];
