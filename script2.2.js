@@ -4109,8 +4109,8 @@ function printSelected() {
     alert("No Quantity Entered!");
     return;
   }
-  if (selectedRows.length > 13) {
-    alert("Cannot print more than 13 items!, currently selected: " + selectedRows.length);
+  if (selectedRows.length > 15) {
+    alert("Cannot print more than 15 items!, currently selected: " + selectedRows.length);
     return;
   }
 
