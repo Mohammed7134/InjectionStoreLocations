@@ -3917,7 +3917,7 @@ const data = [
     "ITEM_SER": "18068",
     "ITEM_ID": "6505-99-02-00091",
     "DRUG_NAME": "HydroxoCOblamine 5g (Cyanokit) Kit",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Column 37 Shelf C",
     "PACK_SIZE": "1",
     "QTY": ""
   },
