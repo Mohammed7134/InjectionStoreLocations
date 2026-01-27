@@ -677,7 +677,7 @@ const data = [
     "ITEM_SER": "2250",
     "ITEM_ID": "6505-99-02-07922",
     "DRUG_NAME": "CarbeTOCIN 100mcg/ml (Pabal) Injection",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 5 Shelf 3",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 5 Shelf 3, Column 47 Shelf B",
     "PACK_SIZE": "5",
     "QTY": ""
   },
@@ -1885,7 +1885,7 @@ const data = [
     "ITEM_SER": "1961",
     "ITEM_ID": "6505-99-02-06465",
     "DRUG_NAME": "IMMUNOglobulin 5gm (Intraglobulin) Infusion",
-    "ITEM_PHYSICAL_LOCATION": "Column 28 Shelf A",
+    "ITEM_PHYSICAL_LOCATION": "Column 28 Shelf A, Cold Room 4 Shelf C",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -2501,7 +2501,7 @@ const data = [
     "ITEM_SER": "5020",
     "ITEM_ID": "6505-99-35-00631",
     "DRUG_NAME": "Mircera 100mcg/0.3ml Prefilled Syring",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 3",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 2",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -2693,7 +2693,7 @@ const data = [
     "ITEM_SER": "6568",
     "ITEM_ID": "6505-99-02-50501",
     "DRUG_NAME": "Omnitrope (Surepal 5) Pen Device",
-    "ITEM_PHYSICAL_LOCATION": "Cold Room 7 Shelf C",
+    "ITEM_PHYSICAL_LOCATION": "Cold Room 4 Shelf D",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3941,7 +3941,7 @@ const data = [
     "ITEM_SER": "18092",
     "ITEM_ID": "6505-99-06-05595",
     "DRUG_NAME": "Hepatits B Immunoglobuline 312IU/ml Injection",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 2",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3949,7 +3949,7 @@ const data = [
     "ITEM_SER": "18103",
     "ITEM_ID": "6505-99-02-05591",
     "DRUG_NAME": "Somatropin 6mg/1.03ml (Saizen) Cartridge",
-    "ITEM_PHYSICAL_LOCATION": "",
+    "ITEM_PHYSICAL_LOCATION": "Cold Room 5 Shelf A",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -3997,7 +3997,7 @@ const data = [
     "ITEM_SER": "18164",
     "ITEM_ID": "6505-99-02-13131",
     "DRUG_NAME": "Andexanet Alfa 200mg (Andexxa) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 2",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 3",
     "PACK_SIZE": "4",
     "QTY": ""
   },
@@ -4021,7 +4021,7 @@ const data = [
     "ITEM_SER": "18186",
     "ITEM_ID": "6505-99-03-14141",
     "DRUG_NAME": "Denosumab 120mg (Xgeva) Vial",
-    "ITEM_PHYSICAL_LOCATION": "Cold Room",
+    "ITEM_PHYSICAL_LOCATION": "Cold Room 7 Shelf B",
     "PACK_SIZE": "1",
     "QTY": ""
   },
@@ -4033,12 +4033,28 @@ const data = [
     "PACK_SIZE": "1",
     "QTY": ""
   },
-{
+  {
     "ITEM_SER": "18195",
     "ITEM_ID": "6505-99-02-32321",
     "DRUG_NAME": "Aztreonam 1g Injection",
     "ITEM_PHYSICAL_LOCATION": "Column 5 Shelf C",
     "PACK_SIZE": "10",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18197",
+    "ITEM_ID": "6505-99-02-01561",
+    "DRUG_NAME": "Lumasiran 94.5mg/0.5ml (Oxlumo) Vial",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18198",
+    "ITEM_ID": "6505-99-02-22772",
+    "DRUG_NAME": "Cangrelor 50mg (Kengrexal) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf A",
+    "PACK_SIZE": "1",
     "QTY": ""
   }
 ];
