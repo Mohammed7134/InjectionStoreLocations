@@ -4056,6 +4056,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Column 18 Shelf A",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "5451",
+    "ITEM_ID": "6505-99-02-06586",
+    "DRUG_NAME": "Orgalutran 0.25mg/0.5ml (Ganirelix) P.F.Syring",
+    "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf B",
+    "PACK_SIZE": "10",
+    "QTY": ""
   }
 ];
 // Function to render rows
