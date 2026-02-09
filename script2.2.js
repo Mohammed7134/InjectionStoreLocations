@@ -788,7 +788,7 @@ const data = [
   {
     "ITEM_SER": "38",
     "ITEM_ID": "6505-99-02-06882",
-    "DRUG_NAME": "ChlorpROMAZine 25mg/2ml (Largactil) Ampoule",
+    "DRUG_NAME": "ChlorpROMAZine 50mg/2ml (Largactil) Ampoule",
     "ITEM_PHYSICAL_LOCATION": "Cupboard 1 Shelf A",
     "PACK_SIZE": "10",
     "QTY": ""
