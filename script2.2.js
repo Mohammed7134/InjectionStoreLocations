@@ -4064,6 +4064,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf B",
     "PACK_SIZE": "10",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18200",
+    "ITEM_ID": "6505-99-03-07233",
+    "DRUG_NAME": "RiTUXimab 500mg/50ml (Ruxience) Injection",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 ];
 // Function to render rows
