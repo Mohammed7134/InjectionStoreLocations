@@ -1498,14 +1498,6 @@ const data = [
     "QTY": ""
   },
   {
-    "ITEM_SER": "5476",
-    "ITEM_ID": "6565-99-02-20021",
-    "DRUG_NAME": "Follitropin 225 IU Syring",
-    "ITEM_PHYSICAL_LOCATION": "Cold Room 8 Shelf B",
-    "PACK_SIZE": "1",
-    "QTY": ""
-  },
-  {
     "ITEM_SER": "5342",
     "ITEM_ID": "6505-99-02-10882",
     "DRUG_NAME": "Follitropin 300 IU Prefilled Syring",
@@ -3471,14 +3463,6 @@ const data = [
     "DRUG_NAME": "Triamicinolone 10mg (Kenalog) Injection",
     "ITEM_PHYSICAL_LOCATION": "Column 23 Shelf C",
     "PACK_SIZE": "5",
-    "QTY": ""
-  },
-  {
-    "ITEM_SER": "2260",
-    "ITEM_ID": "6505-99-24-00061",
-    "DRUG_NAME": "Tridil 5000 (GTN) Set",
-    "ITEM_PHYSICAL_LOCATION": "Column 15 Shelf A",
-    "PACK_SIZE": "1",
     "QTY": ""
   },
   {
