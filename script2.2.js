@@ -4056,6 +4056,22 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18202",
+    "ITEM_ID": "6505-99-03-00711",
+    "DRUG_NAME": "Somatrogon 24mg/1.2ml (Ngenla) Prefilled Pen",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18203",
+    "ITEM_ID": "6505-99-03-00741",
+    "DRUG_NAME": "Somatrogon 60mg/1.2ml (Ngenla) Prefilled Pen",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 ];
 // Function to render rows
