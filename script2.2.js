@@ -4048,6 +4048,13 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Cupboard 2 Shelf B",
     "PACK_SIZE": "10",
     "QTY": ""
+  }, {
+    "ITEM_SER": "18204",
+    "ITEM_ID": "6505-99-02-00341",
+    "DRUG_NAME": "Ravulizumab 300MG (Ultomiris) Vial",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   },
   {
     "ITEM_SER": "18200",
