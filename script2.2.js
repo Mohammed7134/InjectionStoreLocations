@@ -2595,7 +2595,7 @@ const data = [
   },
   {
     "ITEM_SER": "17849",
-    "ITEM_ID": "6505-99-02-02471",
+    "ITEM_ID": "6505-99-06-02471",
     "DRUG_NAME": "Nirsevimab 100mg/ml (Beyfortus) Syringe",
     "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 2",
     "PACK_SIZE": "5",
@@ -2603,7 +2603,7 @@ const data = [
   },
   {
     "ITEM_SER": "17842",
-    "ITEM_ID": "6505-99-02-02451",
+    "ITEM_ID": "6505-99-06-02451",
     "DRUG_NAME": "Nirsevimab 50mg/0.5ml (Beyfortus) Syringe",
     "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 2",
     "PACK_SIZE": "5",
@@ -4066,7 +4066,7 @@ const data = [
   },
   {
     "ITEM_SER": "18202",
-    "ITEM_ID": "6505-99-03-00711",
+    "ITEM_ID": "6505-99-02-00711",
     "DRUG_NAME": "Somatrogon 24mg/1.2ml (Ngenla) Prefilled Pen",
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
@@ -4074,8 +4074,16 @@ const data = [
   },
   {
     "ITEM_SER": "18203",
-    "ITEM_ID": "6505-99-03-00741",
+    "ITEM_ID": "6505-99-02-00741",
     "DRUG_NAME": "Somatrogon 60mg/1.2ml (Ngenla) Prefilled Pen",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18205",
+    "ITEM_ID": "6505-99-02-21211",
+    "DRUG_NAME": "Tezepelumab 210mg/1.9ml (Tezspire) Prefilled Syringe",
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
