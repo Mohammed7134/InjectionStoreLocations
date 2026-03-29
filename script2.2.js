@@ -4087,6 +4087,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18206",
+    "ITEM_ID": "6505-99-02-98761",
+    "DRUG_NAME": "Brivaracetam 50mg/5ml (Briviact) Vial",
+    "ITEM_PHYSICAL_LOCATION": "Column 34 Shelf B",
+    "PACK_SIZE": "10",
+    "QTY": ""
   }
 ];
 // Function to render rows
