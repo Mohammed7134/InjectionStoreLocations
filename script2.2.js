@@ -4095,6 +4095,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Column 34 Shelf B",
     "PACK_SIZE": "10",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18188",
+    "ITEM_ID": "6505-99-02-13716",
+    "DRUG_NAME": "Vitamin A 1000,000 IU Ampoule",
+    "ITEM_PHYSICAL_LOCATION": "Column 38 Shelf A",
+    "PACK_SIZE": "6",
+    "QTY": ""
   }
 ];
 // Function to render rows
