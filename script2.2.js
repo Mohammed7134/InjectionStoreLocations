@@ -4103,6 +4103,22 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "Column 38 Shelf A",
     "PACK_SIZE": "6",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18219",
+    "ITEM_ID": "6505-99-02-07232",
+    "DRUG_NAME": "RiTUXimab 500mg/50ml (Rixathon) Injection",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "18221",
+    "ITEM_ID": "6505-99-02-04441",
+    "DRUG_NAME": "Suxamethonium 100mg/10ml (Murexal) Prefilled Syringe",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 4 Shelf 2",
+    "PACK_SIZE": "10",
+    "QTY": ""
   }
 ];
 // Function to render rows
