@@ -3587,10 +3587,10 @@ const data = [
   },
   {
     "ITEM_SER": "149",
-    "ITEM_ID": "6505-99-02-08411",
+    "ITEM_ID": "6505-99-02-08418",
     "DRUG_NAME": "Vitamin (B1 100mg,B6 100mg,B12 1mg) Injection",
     "ITEM_PHYSICAL_LOCATION": "Fridge 2 Shelf 4",
-    "PACK_SIZE": "1",
+    "PACK_SIZE": "5",
     "QTY": ""
   },
   {
@@ -4118,6 +4118,14 @@ const data = [
     "DRUG_NAME": "Suxamethonium 100mg/10ml (Murexal) Prefilled Syringe",
     "ITEM_PHYSICAL_LOCATION": "Fridge 4 Shelf 2",
     "PACK_SIZE": "10",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "6236",
+    "ITEM_ID": "6505-99-02-08413",
+    "DRUG_NAME": "Biovit 12 Depot (b6 20mg,b12 1mg,Folic acid 1mg) IM Injection",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "40",
     "QTY": ""
   }
 ];
