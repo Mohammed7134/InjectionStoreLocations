@@ -4127,6 +4127,22 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "40",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "5836",
+    "ITEM_ID": "6505-99-06-07803",
+    "DRUG_NAME": "Meningococcal ACWY Vaccine One Dose",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
+  {
+    "ITEM_SER": "469",
+    "ITEM_ID": "6505-99-06-09403",
+    "DRUG_NAME": "Polio Oral Vaccine Drops",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 ];
 // Function to render rows
