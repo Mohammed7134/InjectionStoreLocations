@@ -4143,6 +4143,14 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
+  },
+  {
+    "ITEM_SER": "18230",
+    "ITEM_ID": "6505-99-02-01401",
+    "DRUG_NAME": "Volanesorsen 285mg/1.5ml (Waylivra) Prefilled Syringe",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
   }
 ];
 // Function to render rows
