@@ -147,7 +147,7 @@ const data = [
   },
   {
     "ITEM_SER": "6555",
-    "ITEM_ID": "6505-99-02-06544",
+    "ITEM_ID": "6505-99-02-06546",
     "DRUG_NAME": "Adalimumb 40mg/0.8ML (AMGEVITA) PEN",
     "ITEM_PHYSICAL_LOCATION": "Cold Room 1 Shelf B",
     "PACK_SIZE": "2",
