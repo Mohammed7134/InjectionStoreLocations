@@ -4151,7 +4151,22 @@ const data = [
     "ITEM_PHYSICAL_LOCATION": "",
     "PACK_SIZE": "1",
     "QTY": ""
-  }
+  },
+  {
+    "ITEM_SER": "18237",
+    "ITEM_ID": "6505-99-02-07224",
+    "DRUG_NAME": "RiTUXimab 100mg/10ml (Rixathon) Injection",
+    "ITEM_PHYSICAL_LOCATION": "Fridge 1 Shelf 1",
+    "PACK_SIZE": "2",
+    "QTY": ""
+  }, {
+    "ITEM_SER": "18238",
+    "ITEM_ID": "6505-99-02-07711",
+    "DRUG_NAME": "Ropivicaine 75mg/10ml (Zitamin) Injection",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "5",
+    "QTY": ""
+  },
 ];
 // Function to render rows
 function renderRows(filteredData) {
