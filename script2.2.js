@@ -4167,6 +4167,14 @@ const data = [
     "PACK_SIZE": "5",
     "QTY": ""
   },
+  {
+    "ITEM_SER": "18241",
+    "ITEM_ID": "6505-99-02-99021",
+    "DRUG_NAME": "Pegvaliase Enzyme 2.5mg (Palynziq) Syringe",
+    "ITEM_PHYSICAL_LOCATION": "",
+    "PACK_SIZE": "1",
+    "QTY": ""
+  },
 ];
 // Function to render rows
 function renderRows(filteredData) {
